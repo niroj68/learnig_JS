@@ -11,12 +11,12 @@ console.log("Niroj"); //code readability should be maintain
 
 console.log(34+5);console.log("Niroj"); // It is runable but still Dont do this it effects the readability
 
-let name = "Niroj"
+let nameOfAccount = "Niroj"
 let age = 22
 let didYouEat = true
 let state
 
-console.table([name,age,didYouEat,state])
+console.table([nameOfAccount,age,didYouEat,state])
 
 // number = 2^53
 // bigint
