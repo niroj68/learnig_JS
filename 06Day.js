@@ -8,6 +8,8 @@ heap used in Non premitive data type(original value referance)
 
 */
 
+//Draw.io extension is userd for "06Days.drawio" dont forget to install to see the graphical idea of the concept
+
 let myName = "Niroj"
 let myNickName = myName
 myNickName = "Chiku"
@@ -44,3 +46,4 @@ because the both variable take the referance of Data
 like set A has two variable who are related to set B one value
 if the value change the entire relation chane ( i took the concept from mathematics Relation Functions )
 */
+
