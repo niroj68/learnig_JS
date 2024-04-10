@@ -59,4 +59,4 @@ console.log(url.replace('%_','-'))
 
 console.log(url.includes("niroj"))//true
 
-console.log(myName.split(" "));//converting string into arrey 
+console.log(myName.split(" "));//converting string into arrey separating on the bases of " "(white space)
