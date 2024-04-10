@@ -14,7 +14,7 @@ console.log(`Hello my name is ${name.toUpperCase()} and my score is ${score}`);
 
 const myName = new String("Niroj Kumar Naik")
 console.log(myName);
-// in console of browser we can see a series of character with position location starting with 0
+// the above two line, in console of browser we can see a series of character with position location starting with 0
 /*
 String {'Niroj Kumar Naik'}
 0: "N"
@@ -46,7 +46,17 @@ console.log(myName.toUpperCase())
 console.log(myName.charAt(8));
 console.log(myName.indexOf('o'));
 
-const myNewName = myName.substring(0,3)
+const myNewName = myName.substring(0,3)// no negative value input
 console.log(myNewName);
-const myAnotherName = myName.slice(-7,7)
+const myAnotherName = myName.slice(-13,7)
 console.log(myAnotherName)
+
+const newStringOne = "  hitesh  bhai  "
+console.log(newStringOne.trim());// only for starting and ending white space
+
+const url = "https://niroj.com/niroj%_code"
+console.log(url.replace('%_','-'))
+
+console.log(url.includes("niroj"))//true
+
+console.log(myName.split(" "));//converting string into arrey 
