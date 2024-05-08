@@ -11,3 +11,24 @@ myObj = {
 }
 
 console.log(myObj.adhar)
+myObj.adhar()
+myObj.userName = "sekher"
+myObj.adhar()
+
+// this is about the current context
+
+console.log(this)  // empty context {}
+// browser will show different output 
+// browser will give you window (window is a global Object)
+
+function one (){
+    let userName1 = "niroj"
+    console.log(this.userName1)
+}
+
+one()// undefined
+
+const pokhalo = function() {
+    console.log(this.userName);
+}
+pokhalo()
