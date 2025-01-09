@@ -16,11 +16,20 @@ let valueInString = String(score2)
 the cap letter of "Number" and "String" represent as "Class"
 */
 
+// lets play here 
+valueInNumber = valueInNumber + "adb"
+valueInNumber = Number(valueInNumber)
 console.log(typeof valueInNumber)//its a Number
 console.log(typeof valueInString)//its a String
 
-console.log(valueInNumber)//I was expecting the output must be NaN but node.js( v20.12.0) update resolve the issue, now it shows correct value as 33 
+console.log(valueInNumber)//the output is NaN
 console.log(valueInString)//the output is a String value
+
+// what if we change the position of such as 33adb to adb33
+let someStringNumber = "adb33"
+someStringNumber = Number(someStringNumber)
+console.log(typeof someStringNumber);
+console.log(someStringNumber)
 
 let anEmptyValue = null
 let valueInNumber2 = Number(anEmptyValue)
